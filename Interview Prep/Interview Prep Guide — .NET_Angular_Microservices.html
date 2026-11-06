@@ -1,0 +1,303 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}</style><style>:root{color-scheme:light dark;--md-bg:#fff;--md-text:rgba(0,0,0,.8);--md-muted:rgba(0,0,0,.6);--md-fill:rgba(0,0,0,.04);--md-fill-strong:rgba(0,0,0,.06);--md-rule:rgba(0,0,0,.1);--md-rule-strong:rgba(0,0,0,.16);--md-link:hsl(210 100% 45%)}@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){--md-bg:#0d0d0d;--md-text:rgba(255,255,255,.85);--md-muted:rgba(255,255,255,.6);--md-fill:rgba(255,255,255,.06);--md-fill-strong:rgba(255,255,255,.09);--md-rule:rgba(255,255,255,.14);--md-rule-strong:rgba(255,255,255,.22);--md-link:hsl(210 100% 72%)}}:root[data-theme="dark"]{color-scheme:dark;--md-bg:#0d0d0d;--md-text:rgba(255,255,255,.85);--md-muted:rgba(255,255,255,.6);--md-fill:rgba(255,255,255,.06);--md-fill-strong:rgba(255,255,255,.09);--md-rule:rgba(255,255,255,.14);--md-rule-strong:rgba(255,255,255,.22);--md-link:hsl(210 100% 72%)}:root[data-theme="light"]{color-scheme:light}@media print{:root,:root[data-theme="dark"]{color-scheme:light;--md-bg:#fff;--md-text:rgba(0,0,0,.8);--md-muted:rgba(0,0,0,.6);--md-fill:rgba(0,0,0,.04);--md-fill-strong:rgba(0,0,0,.06);--md-rule:rgba(0,0,0,.1);--md-rule-strong:rgba(0,0,0,.16);--md-link:hsl(210 100% 45%)}}body{background:var(--md-bg);color:var(--md-text);max-width:720px;margin:0 auto;padding:32px;display:flex;flex-direction:column;gap:10px;font:14px/1.55 -apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif;overflow-wrap:break-word}body>:first-child{margin-top:0}h1,h2,h3,h4,h5,h6{margin:6px 0 0;line-height:1.25;font-weight:600;text-wrap:balance}h1{font-size:1.35em}h2{font-size:1.15em;color:var(--md-muted)}h3,h4,h5,h6{font-size:1em}p,ul,ol,blockquote,table,pre,hr{margin:0}strong{font-weight:600}a{color:var(--md-link);text-decoration:none}a:hover{text-decoration:underline}ul,ol{display:flex;flex-direction:column;gap:6px;padding-left:22px}ul{list-style:disc}ol{list-style:decimal}:is(li,td,th)>*+:is(p,ul,ol,blockquote){margin-top:6px}blockquote{display:flex;flex-direction:column;gap:10px;border-left:2px solid var(--md-rule);padding-left:10px;color:var(--md-muted)}:not(pre)>code{background:var(--md-fill);padding:1px 3px;border-radius:4px;font:.92em 'SF Mono',ui-monospace,Menlo,Consolas,monospace}a>code{background:none;color:inherit}pre{background:var(--md-fill);padding:10px 12px;border-radius:6px;overflow-x:auto;font:12px/1.5 'SF Mono',ui-monospace,Menlo,Consolas,monospace;margin-block:4px}pre code{background:none;padding:0;font:inherit}table{width:100%;border-collapse:separate;border-spacing:2px;font:inherit}th,td{padding:6px 8px;border-radius:3px;text-align:left;vertical-align:top}th{background:var(--md-fill-strong);font-weight:600}td{background:var(--md-fill)}:is(th,td) :not(pre)>code{background:transparent}hr{border:0;border-top:1px solid var(--md-rule-strong);margin-block:10px}img{max-width:100%;height:auto;border-radius:4px}</style>
+</head><body>
+<h1>Interview Prep Guide — .NET / Angular / Microservices Developer</h1>
+<p><em>Prepared from your resume (Anto Godwin N) and the two JDs shared (Technical Engineer – ASP.NET Core/Angular/Microservices, and Senior .NET &amp; Angular Developer)</em></p>
+<hr>
+<h2>How to use this in the next few hours</h2>
+<ol>
+<li>Read Section 1 (Resume Deep-Dive) first — these are the questions you are <em>most</em> likely to get, because they're about your own work.</li>
+<li>Skim Section 2 (.NET Core / C#) and Section 3 (EF Core / SQL) — core technical basics.</li>
+<li>You have <strong>no Angular on your resume</strong>, but both JDs require it. Read Section 4 closely and be ready to say honestly: <em>&quot;I've worked primarily on the backend, but I understand Angular fundamentals and am quickly ramping up.&quot;</em> Don't fake production Angular experience — recruiters probe this fast.</li>
+<li>Section 5 (Microservices) — important since neither JD assumes you've built one at scale.</li>
+<li>Section 6 (REST/Azure/DevOps/Agile) — quick wins, you have real experience here.</li>
+<li>Section 7 — behavioral/HR questions with answer frameworks built from your resume.</li>
+<li>Section 8 — smart questions to ask them.</li>
+</ol>
+<hr>
+<h2>SECTION 1: Resume-Specific Questions (HIGH PRIORITY)</h2>
+<p><strong>Q1. Walk me through your role at Accenture over the last 3+ years.</strong></p>
+<blockquote>
+<p>A: I'm an Application Development Analyst on a healthcare-focused .NET team, working on two main accounts — HMH (Hackensack Meridian Health) and Cencora. I build and maintain backend applications and RESTful APIs using C#, ASP.NET Core, Web API, and EF Core, working within a 7-member Agile team. I've delivered 15+ features on the Cencora platform, resolved 200+ production incidents, and led automation efforts that saved 500+ hours of manual work.</p>
+</blockquote>
+<p><strong>Q2. Tell me about the FedEx API integration project. What was the problem and how did you solve it?</strong></p>
+<blockquote>
+<p>A: Four separate specialty pharmacy applications each had hardcoded shipping logic scattered through the codebase. I built a centralized FedEx REST API service so all four apps call one shared service instead of duplicating logic. I implemented OAuth 2.0 authentication against FedEx's API, dynamic rate and transit-time retrieval, and carrier-aware shipment tracking. Benefits: single point of maintenance, consistent behavior across apps, and easier updates when FedEx changes their API.
+<em>Follow-up they may ask:</em> &quot;How did you handle OAuth token expiry / retries?&quot; → Be ready to explain token caching, refresh logic, and retry/backoff on transient failures (even if you describe it at a high level).</p>
+</blockquote>
+<p><strong>Q3. What SSIS pipelines did you build? Walk me through one.</strong></p>
+<blockquote>
+<p>A: I built 15+ SSIS packages for inbound/outbound data processing — think pulling data from source systems (flat files, other databases), transforming it (cleansing, mapping columns, validation), and loading it into SQL Server for the healthcare platform. Example: a nightly job that pulls prescription/claims data, validates it against reference tables, and loads it into a warehouse table used for reporting — with error/reject handling for bad rows.</p>
+</blockquote>
+<p><strong>Q4. Tell me about migrating 900+ jobs from JobScheduler to JAMS.</strong></p>
+<blockquote>
+<p>A: This was a large-scale scheduler migration. I built an automated migration process rather than manually recreating each job — likely involved extracting job definitions (schedule, dependencies, commands) from JobScheduler, transforming them into JAMS' format, and using JAMS' API/import capability to recreate them. This is a strong &quot;automation mindset&quot; story — emphasize you avoided a repetitive manual task by writing a repeatable migration tool.
+<em>Be ready for:</em> &quot;How did you validate the migrated jobs worked correctly?&quot; → Talk about parallel-running old/new schedulers for a period, comparing outputs, or a validation script comparing job configs before cutover.</p>
+</blockquote>
+<p><strong>Q5. Tell me about the OS upgrade project that got you the Sparkling Star Award.</strong></p>
+<blockquote>
+<p>A: I supported an OS upgrade across 20+ applications — managing clean installs/migrations with minimal downtime. I did server flow analysis to understand dependencies between apps before touching anything, to avoid breaking integrations. The award recognized minimizing business disruption during a risky, large-scope change.</p>
+</blockquote>
+<p><strong>Q6. What does the database-schema-comparison tool you built do, and why?</strong></p>
+<blockquote>
+<p>A: A .NET console app that compares SQL Server schemas across environments (e.g., Dev vs QA vs Prod) to catch drift — missing columns, indexes, or constraints — before a release. This prevents &quot;works in Dev, breaks in Prod&quot; surprises caused by manual/undocumented schema changes.</p>
+</blockquote>
+<p><strong>Q7. Tell me about the VB.NET → .NET console migration.</strong></p>
+<blockquote>
+<p>A: A legacy VB.NET reporting app was migrated to a modern .NET console application, automating report generation and delivery (likely scheduled + emailed/dropped to a location). Be ready to explain <em>why</em> — legacy VB.NET has limited support, harder to maintain, and .NET Core gives cross-platform/performance/maintainability benefits.</p>
+</blockquote>
+<p><strong>Q8. What is Sitecore, and what did you do with it?</strong></p>
+<blockquote>
+<p>A: Sitecore is a .NET-based CMS. For HMH, I wrote Sitecore PowerShell scripts to automate content-management tasks (bulk content updates, publishing workflows) on their healthcare websites, and built a console app to validate sitemap URLs as part of site health monitoring — catching broken links proactively rather than reactively.</p>
+</blockquote>
+<p><strong>Q9. Describe the shift allowance tracking application.</strong></p>
+<blockquote>
+<p>A: An ASP.NET Core MVC app hosted on Azure that tracks employee shift allowances — likely CRUD operations on shift records, calculation logic for allowance amounts, and role-based access so managers/employees see appropriate data.</p>
+</blockquote>
+<p><strong>Q10. How do you approach resolving production incidents? You mention 200+.</strong></p>
+<blockquote>
+<p>A: Structured triage: reproduce/confirm scope → check logs/monitoring for the error signature → identify recent deployments/changes as likely cause → isolate root cause (query, null reference, timeout, config) → apply fix or rollback → verify → document root cause to prevent recurrence. Emphasize calm, methodical debugging under pressure since healthcare apps are business-critical.</p>
+</blockquote>
+<p><strong>Q11. Why are you looking to move roles now?</strong></p>
+<blockquote>
+<p>Prepare an honest, positive answer — growth, broader tech stack (Angular/microservices), more ownership, etc. Never badmouth Accenture.</p>
+</blockquote>
+<hr>
+<h2>SECTION 2: ASP.NET Core / C# Fundamentals</h2>
+<p><strong>Q1. What is the difference between .NET Framework, .NET Core, and .NET 5+?</strong></p>
+<blockquote>
+<p>.NET Framework is Windows-only, legacy. .NET Core (now unified as &quot;.NET 5/6/7/8+&quot;) is cross-platform, open-source, higher performance, modular via NuGet, and is Microsoft's future direction.</p>
+</blockquote>
+<p><strong>Q2. Explain Dependency Injection and why ASP.NET Core has it built-in.</strong></p>
+<blockquote>
+<p>DI is a design pattern where a class receives its dependencies from outside rather than creating them itself, improving testability and loose coupling. ASP.NET Core has a built-in IoC container; services are registered in <code>Program.cs</code>/<code>Startup.cs</code> with lifetimes: <strong>Transient</strong> (new instance every time), <strong>Scoped</strong> (one per request), <strong>Singleton</strong> (one for app lifetime).</p>
+</blockquote>
+<p><strong>Q3. What is Middleware in ASP.NET Core? Give examples.</strong></p>
+<blockquote>
+<p>Middleware are components in the request pipeline that process HTTP requests/responses in sequence (e.g., <code>UseAuthentication</code>, <code>UseAuthorization</code>, <code>UseRouting</code>, custom logging/exception-handling middleware). Order matters — e.g., Authentication must run before Authorization.</p>
+</blockquote>
+<p><strong>Q4. What's the difference between <code>IEnumerable</code>, <code>IQueryable</code>, and <code>List</code>?</strong></p>
+<blockquote>
+<p><code>IEnumerable</code> — in-memory iteration, deferred execution, LINQ-to-Objects. <code>IQueryable</code> — builds an expression tree, execution deferred until enumerated, translated to SQL when used with EF Core (so filtering happens in the database, not in memory). <code>List&lt;T&gt;</code> — concrete, in-memory collection.</p>
+</blockquote>
+<p><strong>Q5. Explain SOLID principles briefly (you list this on your resume).</strong></p>
+<blockquote>
+<ul>
+<li><strong>S</strong>ingle Responsibility — a class should have one reason to change.</li>
+<li><strong>O</strong>pen/Closed — open for extension, closed for modification.</li>
+<li><strong>L</strong>iskov Substitution — subtypes must be substitutable for their base types.</li>
+<li><strong>I</strong>nterface Segregation — many small interfaces over one large one.</li>
+<li><strong>D</strong>ependency Inversion — depend on abstractions, not concretions (ties directly to DI).</li>
+</ul>
+</blockquote>
+<p><strong>Q6. What is the Repository Pattern and why use it?</strong></p>
+<blockquote>
+<p>Abstracts data-access logic behind an interface, so business logic doesn't depend directly on EF Core/SQL specifics — improves testability (can mock the repository) and centralizes query logic.</p>
+</blockquote>
+<p><strong>Q7. Explain async/await in C#. Why use it in Web APIs?</strong></p>
+<blockquote>
+<p><code>async/await</code> allows non-blocking I/O — while waiting on a DB call or external API call, the thread is freed to serve other requests instead of blocking, improving scalability under load.</p>
+</blockquote>
+<p><strong>Q8. What is JWT Authentication and how does it work?</strong></p>
+<blockquote>
+<p>JSON Web Token — client authenticates once, server issues a signed token containing claims (user id, roles, expiry). Client sends the token in the <code>Authorization: Bearer &lt;token&gt;</code> header on subsequent requests; server validates the signature/expiry without needing a session store — stateless auth.</p>
+</blockquote>
+<p><strong>Q9. Difference between Authentication and Authorization?</strong></p>
+<blockquote>
+<p>Authentication = <em>who are you</em> (verifying identity). Authorization = <em>what can you do</em> (verifying permissions/roles) — you mention Role-Based Authorization on your resume, be ready to explain <code>[Authorize(Roles = &quot;Admin&quot;)]</code> style attributes.</p>
+</blockquote>
+<p><strong>Q10. What are Design Patterns you've used besides Repository?</strong></p>
+<blockquote>
+<p>Be ready to mention: Singleton, Factory, Dependency Injection (itself a pattern), Unit of Work (often paired with Repository).</p>
+</blockquote>
+<hr>
+<h2>SECTION 3: Entity Framework Core / SQL Server</h2>
+<p><strong>Q1. What is Entity Framework Core? Code-first vs Database-first?</strong></p>
+<blockquote>
+<p>EF Core is an ORM mapping C# objects to database tables. Code-first: define C# model classes, EF generates the schema/migrations. Database-first: scaffold C# classes from an existing database.</p>
+</blockquote>
+<p><strong>Q2. What are Migrations in EF Core?</strong></p>
+<blockquote>
+<p>Version-controlled, incremental changes to the database schema, generated from model changes (<code>Add-Migration</code>, <code>Update-Database</code>), keeping schema and code in sync across environments.</p>
+</blockquote>
+<p><strong>Q3. Explain LINQ. Give an example.</strong></p>
+<blockquote>
+<p>Language-Integrated Query — query syntax embedded in C# for collections/databases.</p>
+<pre><code class="language-csharp">var activeUsers = dbContext.Users
+    .Where(u =&gt; u.IsActive)
+    .OrderBy(u =&gt; u.Name)
+    .ToList();
+</code></pre>
+</blockquote>
+<p><strong>Q4. What is N+1 query problem and how do you avoid it in EF Core?</strong></p>
+<blockquote>
+<p>Occurs when a query fetches a list, then a separate query runs <em>per item</em> to get related data (N extra queries). Fix with eager loading (<code>.Include()</code>), or projection (<code>.Select()</code>), to fetch everything in one query.</p>
+</blockquote>
+<p><strong>Q5. What are Stored Procedures and when would you prefer them over EF Core queries?</strong></p>
+<blockquote>
+<p>Precompiled SQL stored in the database. Prefer them for complex, performance-critical logic, batch operations, or when DBAs own query optimization — you mention writing/optimizing them on your resume.</p>
+</blockquote>
+<p><strong>Q6. What is CosmosDB, and how is it different from SQL Server?</strong></p>
+<blockquote>
+<p>CosmosDB is Microsoft's NoSQL, globally distributed database (document/key-value/graph models) — schema-flexible, horizontally scalable. SQL Server is relational, schema-enforced, ACID-transaction-strong. Use CosmosDB for high-scale, flexible-schema, low-latency global apps; SQL Server for strongly relational transactional systems.</p>
+</blockquote>
+<p><strong>Q7. How do you optimize a slow SQL query?</strong></p>
+<blockquote>
+<p>Check execution plan for table scans vs index seeks, add appropriate indexes, avoid <code>SELECT *</code>, avoid functions on indexed columns in WHERE clauses, consider query restructuring, check for missing statistics, consider pagination for large result sets.</p>
+</blockquote>
+<hr>
+<h2>SECTION 4: Angular (Gap area — study this carefully, even at a basic level)</h2>
+<p><strong>Q1. What is Angular and how is it different from AngularJS?</strong></p>
+<blockquote>
+<p>Angular (2+) is a complete rewrite of AngularJS, using TypeScript, component-based architecture, and better performance via improved change detection — not backward-compatible with AngularJS (1.x).</p>
+</blockquote>
+<p><strong>Q2. Explain Components, Modules, and Services in Angular.</strong></p>
+<blockquote>
+<p><strong>Component</strong> = UI building block (template + logic + styles). <strong>Module</strong> (<code>NgModule</code>) = groups related components/services/directives. <strong>Service</strong> = reusable business logic/data-access class, typically injected via Angular's DI system (<code>@Injectable</code>).</p>
+</blockquote>
+<p><strong>Q3. What is Data Binding in Angular? Name the types.</strong></p>
+<blockquote>
+<ul>
+<li>Interpolation: <code>{{ value }}</code></li>
+<li>Property binding: <code>[property]=&quot;value&quot;</code></li>
+<li>Event binding: <code>(click)=&quot;onClick()&quot;</code></li>
+<li>Two-way binding: <code>[(ngModel)]=&quot;value&quot;</code></li>
+</ul>
+</blockquote>
+<p><strong>Q4. What is a Service and what does <code>@Injectable</code> do?</strong></p>
+<blockquote>
+<p>A service is a class with reusable logic (e.g., calling a REST API). <code>@Injectable()</code> marks it eligible for Angular's DI system so it can be injected into components/other services.</p>
+</blockquote>
+<p><strong>Q5. How does Angular call REST APIs? (Ties directly to your REST API experience.)</strong></p>
+<blockquote>
+<p>Via <code>HttpClient</code> (from <code>@angular/common/http</code>), typically wrapped in a service:</p>
+<pre><code class="language-typescript">this.http.get&lt;User[]&gt;(&#39;api/users&#39;).subscribe(data =&gt; this.users = data);
+</code></pre>
+</blockquote>
+<p><strong>Q6. What is RxJS and Observables in Angular?</strong></p>
+<blockquote>
+<p>RxJS is a reactive programming library; Angular uses <code>Observable</code>s (from RxJS) for async operations like HTTP calls, allowing operators like <code>map</code>, <code>filter</code>, <code>switchMap</code> to transform/compose async streams.</p>
+</blockquote>
+<p><strong>Q7. What is the difference between a Directive and a Component?</strong></p>
+<blockquote>
+<p>A Component is a directive <em>with a template</em>. Structural directives (<code>*ngIf</code>, <code>*ngFor</code>) change DOM structure; attribute directives (<code>ngClass</code>, <code>ngStyle</code>) change appearance/behavior of an existing element.</p>
+</blockquote>
+<p><strong>Q8. What is Dependency Injection in Angular?</strong></p>
+<blockquote>
+<p>Same concept as backend DI — Angular's injector provides service instances to components/services declaring them in the constructor, rather than each class instantiating its own dependencies.</p>
+</blockquote>
+<p><strong>Q9. What's new/notable in recent Angular versions (Angular 17+)?</strong></p>
+<blockquote>
+<p>Standalone components (no <code>NgModule</code> required), new control-flow syntax (<code>@if</code>, <code>@for</code> instead of <code>*ngIf</code>/<code>*ngFor</code>), Signals for reactive state management, and improved build performance (esbuild/Vite-based dev server).
+<em>Honest framing:</em> &quot;My hands-on experience is primarily backend, but I understand these concepts and I'm actively building small Angular apps to strengthen this side — happy to walk through what I know.&quot;</p>
+</blockquote>
+<p><strong>Q10. How would you structure communication between a .NET Web API backend and an Angular frontend?</strong></p>
+<blockquote>
+<p>RESTful endpoints returning JSON, DTOs to avoid exposing EF entities directly, CORS configuration on the .NET side to allow the Angular origin, JWT-based auth passed via <code>Authorization</code> header, and Angular services wrapping <code>HttpClient</code> calls per feature.</p>
+</blockquote>
+<hr>
+<h2>SECTION 5: Microservices</h2>
+<p><strong>Q1. What are Microservices and how do they differ from a Monolith?</strong></p>
+<blockquote>
+<p>Independent, loosely-coupled services, each owning a bounded business capability and its own data store, deployed/scaled independently — vs. a monolith where all functionality is a single deployable unit.</p>
+</blockquote>
+<p><strong>Q2. What challenges come with Microservices?</strong></p>
+<blockquote>
+<p>Inter-service communication complexity, distributed data consistency, more complex deployment/monitoring, network latency/failure handling, service discovery, and harder debugging across services.</p>
+</blockquote>
+<p><strong>Q3. How do microservices communicate?</strong></p>
+<blockquote>
+<p>Synchronous: REST/HTTP or gRPC. Asynchronous: message brokers like Kafka or RabbitMQ (mentioned as &quot;good to have&quot; in the JD) — decoupling services via events/queues.</p>
+</blockquote>
+<p><strong>Q4. What is an API Gateway?</strong></p>
+<blockquote>
+<p>A single entry point routing client requests to the appropriate microservice, often handling auth, rate limiting, and request aggregation — avoids clients needing to know every service's address.</p>
+</blockquote>
+<p><strong>Q5. How would you handle a failure in one microservice affecting others?</strong></p>
+<blockquote>
+<p>Circuit breaker pattern (e.g., Polly in .NET), retries with backoff, timeouts, and graceful degradation/fallback responses instead of cascading failures.</p>
+</blockquote>
+<p><strong>Q6. Relate your FedEx integration to microservices thinking.</strong></p>
+<blockquote>
+<p>Good talking point: centralizing shipping logic into one FedEx service <em>is</em> a microservices-style decomposition — a single, independently-updatable service consumed by four applications, rather than duplicated logic. Use this to bridge your real experience to the microservices question.</p>
+</blockquote>
+<hr>
+<h2>SECTION 6: REST APIs, Azure, DevOps, Git, Agile</h2>
+<p><strong>Q1. What makes an API &quot;RESTful&quot;?</strong></p>
+<blockquote>
+<p>Stateless, resource-based URLs, standard HTTP verbs (GET/POST/PUT/DELETE) mapped to CRUD, proper status codes, and typically JSON payloads.</p>
+</blockquote>
+<p><strong>Q2. What's the difference between PUT and PATCH?</strong></p>
+<blockquote>
+<p>PUT replaces the entire resource; PATCH applies partial updates.</p>
+</blockquote>
+<p><strong>Q3. What Azure services have you used? (You list AZ-900, AZ-104, AZ-400 certs — great credibility here.)</strong></p>
+<blockquote>
+<p>Azure App Services (hosting the shift-allowance MVC app), Azure DevOps (CI/CD, boards, repos). Be ready to explain a CI/CD pipeline you've used: build → run tests → deploy to a staging slot → swap to production, or similar.</p>
+</blockquote>
+<p><strong>Q4. Explain a CI/CD pipeline you've worked with in Azure DevOps.</strong></p>
+<blockquote>
+<p>Code pushed to Git triggers a build pipeline (restore, build, test), then a release pipeline deploys to environments (Dev → QA → Prod) with approval gates, often using YAML pipelines.</p>
+</blockquote>
+<p><strong>Q5. What Git workflows have you used (branching strategy)?</strong></p>
+<blockquote>
+<p>Be ready to describe feature-branch workflow, pull requests/code review, merge/rebase, resolving conflicts — even if it's just &quot;feature branches merged via PR into develop/main following Git-flow-like practices.&quot;</p>
+</blockquote>
+<p><strong>Q6. How do you work in Agile/Scrum? What's your role in ceremonies?</strong></p>
+<blockquote>
+<p>Daily standups, sprint planning, backlog grooming/refinement, sprint review/demo, retrospectives — describe your actual participation in a 7-member team.</p>
+</blockquote>
+<p><strong>Q7. Since the JD mentions AI-assisted dev tools (Copilot/Claude/ChatGPT) as &quot;good to have&quot; — have you used any?</strong></p>
+<blockquote>
+<p>Be honest and positive: mention using AI tools for boilerplate generation, debugging assistance, documentation, or learning new concepts (like this very prep!) — shows adaptability, which the JD explicitly values.</p>
+</blockquote>
+<hr>
+<h2>SECTION 7: Behavioral / HR Questions</h2>
+<p><strong>Q1. Tell me about yourself.</strong></p>
+<blockquote>
+<p>Structure: Current role → years of experience → core stack → 1-2 standout achievements (FedEx integration, 500+ hours saved) → why you're excited about this opportunity (Angular/microservices growth).</p>
+</blockquote>
+<p><strong>Q2. Describe a challenging bug you fixed.</strong></p>
+<blockquote>
+<p>Pick one of your 200+ production incidents — describe the symptom, your investigation process, the root cause, and the fix + prevention step.</p>
+</blockquote>
+<p><strong>Q3. Tell me about a time you worked under pressure / tight deadline.</strong></p>
+<blockquote>
+<p>The 15+ Cencora features delivered ahead of schedule, or a production incident during business hours, works well here.</p>
+</blockquote>
+<p><strong>Q4. Describe a time you automated something to save effort.</strong></p>
+<blockquote>
+<p>The JobScheduler → JAMS migration or the 500+ hours saved via PowerShell/.NET automation — strong, quantified story.</p>
+</blockquote>
+<p><strong>Q5. How do you handle disagreements with team members on technical approach?</strong></p>
+<blockquote>
+<p>Emphasize listening, weighing trade-offs objectively, bringing data/examples, and escalating to team/architect discussion if needed rather than being rigid.</p>
+</blockquote>
+<p><strong>Q6. Where do you see yourself in 3-5 years?</strong></p>
+<blockquote>
+<p>Growing into a stronger full-stack/microservices role, potentially technical leadership, continuing to deepen cloud/architecture skills.</p>
+</blockquote>
+<p><strong>Q7. Why should we hire you over other candidates?</strong></p>
+<blockquote>
+<p>3+ years of real production experience in healthcare-grade, business-critical systems; strong automation/ownership track record (500+ hours saved, award-recognized OS upgrade); solid backend fundamentals with Azure certifications; and genuine motivation to grow into the Angular/microservices side this role needs.</p>
+</blockquote>
+<hr>
+<h2>SECTION 8: Smart Questions to Ask Them</h2>
+<ol>
+<li>&quot;What does the microservices architecture look like here — how many services, and how do they communicate (REST, message queue)?&quot;</li>
+<li>&quot;How mature is the Angular codebase — latest version, standalone components, or still module-based?&quot;</li>
+<li>&quot;What does the CI/CD and deployment process look like for this team?&quot;</li>
+<li>&quot;What would success look like in this role in the first 3-6 months?&quot;</li>
+<li>&quot;How is the team structured — backend/frontend split, or full-stack expectations across the board?&quot;</li>
+</ol>
+<hr>
+<h2>Quick Pre-Interview Checklist</h2>
+<ul>
+<li><input disabled="" type="checkbox"> Re-read your own resume once more right before the call — know every bullet.</li>
+<li><input disabled="" type="checkbox"> Have 2-3 STAR stories ready (Situation-Task-Action-Result) — FedEx integration, JobScheduler migration, and a production incident are your strongest.</li>
+<li><input disabled="" type="checkbox"> Be upfront but confident about the Angular gap — pair it with a concrete plan/interest to grow into it.</li>
+<li><input disabled="" type="checkbox"> Prepare your own questions (Section 8) — always ask at least 2.</li>
+<li><input disabled="" type="checkbox"> Test your internet/camera/mic setup in advance if it's virtual.</li>
+</ul>
+<p>Good luck — your resume has strong, quantified achievements. Lead with those.</p>
+
+</body></html>

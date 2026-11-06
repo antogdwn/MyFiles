@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F5E70DF2-B14B-4E55-A22C-E2AB27631DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeLineHospitalApp", "LifeLineHospitalApp\LifeLineHospitalApp.csproj", "{012075F9-92F9-4C9E-8C43-67344B84223E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5E70DF2-B14B-4E55-A22C-E2AB27631DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E70DF2-B14B-4E55-A22C-E2AB27631DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E70DF2-B14B-4E55-A22C-E2AB27631DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E70DF2-B14B-4E55-A22C-E2AB27631DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012075F9-92F9-4C9E-8C43-67344B84223E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012075F9-92F9-4C9E-8C43-67344B84223E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012075F9-92F9-4C9E-8C43-67344B84223E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012075F9-92F9-4C9E-8C43-67344B84223E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73247223-72BB-4C61-8596-5E98D820C9C4}
+	EndGlobalSection
+EndGlobal

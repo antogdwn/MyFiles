@@ -1,0 +1,63 @@
+// Online C# compiler (editor) for free
+// Write and run C# online using this editor.
+
+using System;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
+using System.Linq;
+public class HelloWorld {
+    public static void Main(string[] args) {
+            string string1="xaxb";
+            string string2 ="bbxx";
+
+            var str1=Regex.Replace(string1,@"[^a-zA-Z]","").ToLower();
+            var str2=Regex.Replace(string2,@"[^a-zA-Z]","").ToLower();
+            if(str1.Length !=str2.Length)  {
+                    Console.WriteLine("Not Anagram");
+            }
+            else{
+                  Dictionary<char,int> dict1 = str1.GroupBy(x=>x)
+                                   .ToDictionary(g=>g.Key,g=>g.Count());
+
+                    //foreach(var kvp in dict1){
+                           // Console.WriteLine($"Key =:{kvp.Key} , Value={kvp.Value}");
+                   // }
+                    Dictionary<char,int> dict2 =str2.GroupBy(x=>x)
+                                                    .ToDictionary(g=>
+                                                                 g.Key,
+                                                                 g=>g.Count());
+                    Console.WriteLine("--------------------------------------------");
+                   // foreach(var kvp in dict2){
+                          //  Console.WriteLine($"Key =:{kvp.Key} , Value={kvp.Value}");
+                   // }
+                     //
+                Console.WriteLine("--------------------------------------------");
+                        bool isAnagram = true;
+                    int chcount=0;
+                    foreach(var kvp in dict1){
+                            if(dict2.ContainsKey(kvp.Key)){
+                                   var res= dict2.TryGetValue(kvp.Key, out int count);
+                                    if(count != kvp.Value){
+                                            isAnagram=false;
+                                            //break;
+                                    }
+                                    //Console.WriteLine("Key :"+ kvp.Key + "Count " +count);
+                            }
+                            else{
+                                    
+                                chcount++;    
+                            }
+                    }
+                    if(isAnagram){
+                         Console.WriteLine("Anagram");
+                       
+                    }
+                    else{
+                                Console.WriteLine("Not Anagram");
+                    }
+                    Console.WriteLine(chcount);
+            }
+            
+       
+        }
+}

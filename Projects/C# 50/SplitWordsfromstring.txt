@@ -1,0 +1,60 @@
+// Online C# compiler (editor) for free
+// Write and run C# online using this editor.
+
+using System;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;s
+using System.Linq;
+using System.Text;
+public class HelloWorld {
+    public static void Main(string[] args) {
+            string newStr="Build reliable    backend applications   ";
+        
+            string str= Regex.Replace(newStr,@"[^a-zA-z]"," ");
+            Console.WriteLine($"{str} , {str.Length}");
+             int startPos=0;
+            int endPos=0;
+            //int count=0;
+            bool isValue= false;
+            StringBuilder  longestWord=new StringBuilder("");
+            int tempLen=0;
+            List<string> myList =new List<string>();
+            for(int i=0; i < str.Length; i++){       
+                    if(str[i]!=' ' && !isValue){
+                            startPos=i;    
+                            isValue=true;                  
+                            //continue;
+                    }
+                    else if(str[i] ==' ' && isValue || (i==str.Length - 1 && startPos>0)){
+                               //var len = ;
+                            //startpos=2 ; i=6
+                            
+                               Console.WriteLine($"startPos ={startPos}  i = {i}");
+                               Console.WriteLine(str.Substring(startPos,i-startPos));
+                               tempLen=str.Substring(startPos,i-startPos).Length;
+                               
+                            if(tempLen > longestWord.Length){
+                                       longestWord.Clear();
+                                       longestWord.Append(str.Substring(startPos,i-startPos));
+                               
+                               }
+                               myList.Add(str.Substring(startPos,i-startPos));
+                               
+                               //count++;
+                               isValue=false;
+                               startPos=0;
+                            
+                    }
+                    endPos++;
+            }
+           // var res =str.Split(" ",StringSplitOptions.RemoveEmptyEntries)
+           //              .Count();
+                    
+            //Console.WriteLine(count);
+            Console.WriteLine(string.Join(",",myList));
+            Console.WriteLine($"Output :{longestWord} , Length ={tempLen}");
+            
+            
+        }                 
+}
+

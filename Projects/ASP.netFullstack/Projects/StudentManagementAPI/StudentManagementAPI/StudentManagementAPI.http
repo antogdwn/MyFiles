@@ -1,0 +1,91 @@
+@StudentManagementAPI_HostAddress = https://localhost:7221
+
+GET {{StudentManagementAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+@token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJqdGkiOiJhNzU4MzUwNS1hYzQ4LTQwZDItYTMyYS1jMTk0MmZmZThiNWUiLCJleHAiOjE3ODYyOTY4MzAsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyMjEiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MjIxIn0.yGx5VBjrvcWB7iXmcico2-_0N-Tukuozrd1wFoE53u4
+
+GET {{StudentManagementAPI_HostAddress}}/api/student
+Authorization: Bearer {{token}}
+
+
+###
+
+
+
+POST {{StudentManagementAPI_HostAddress}}/api/student
+Content-Type: application/json
+
+{
+  "id":5 ,
+  "name": "Anto3 ",
+  "email": "anto@gmail.com",
+  "age": 25,
+  "course": "Dot Net"
+}
+
+###
+@id=4
+GET {{StudentManagementAPI_HostAddress}}/api/student/{{id}}
+Authorization: Bearer {{token}}
+
+###
+
+
+###
+
+@id=4
+PUT {{StudentManagementAPI_HostAddress}}/api/student?id={{id}}
+Content-Type: application/json
+
+{
+   "id":4,
+  "name": "Mansiiii ",
+  "email": "Mansi@gmail.com",
+  "age": 25,
+  "course": "Dot Net"
+}
+
+###
+
+DELETE {{StudentManagementAPI_HostAddress}}/api/student/{{id}}
+
+###
+
+GET {{StudentManagementAPI_HostAddress}}/api/student/Search?Name={{Name}}
+
+###
+
+
+
+GET {{StudentManagementAPI_HostAddress}}/api/student/Pagination?PagepageNumber={{PagepageNumber}}&pageSize={{pageSize}}
+
+###
+
+@pageNumber=2
+@pageSize=3
+GET {{StudentManagementAPI_HostAddress}}/api/student/?pageNumber={{pageNumber}}&pageSize={{pageSize}}
+Authorization :Bearer {{token}}
+###
+
+@username=Admin
+@password=Password
+
+
+POST {{StudentManagementAPI_HostAddress}}/api/student/login?username={{username}}&password={{password}}
+
+###
+
+POST {{StudentManagementAPI_HostAddress}}/api/student/login?username={{username}}&password={{password}}
+Content-Type: application/json
+{
+  "username":"Admin",
+  "password": "Password"
+}
+
+###
+
+GET {{StudentManagementAPI_HostAddress}}/api/student/Login?username={{username}}&password={{password}}
+
+###
