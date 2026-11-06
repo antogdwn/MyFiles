@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {}
+    "c:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {
+    "c:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
+        "projectUniqueName": "c:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
         "projectName": "MyFirstApp",
-        "projectPath": "C:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
+        "projectPath": "c:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
         "packagesPath": "C:\\Users\\anto.godwin.n\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\obj\\",
+        "outputPath": "c:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MyFirstApp\\MyFirstApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
