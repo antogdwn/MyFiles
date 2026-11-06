@@ -1,0 +1,78 @@
+@model LifeLineHospitalApp.Models.Patient
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Patient</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PatientName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PatientName)
+        </dd>
+    </dl>
+    <dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PatientAge)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PatientAge)
+        </dd>
+    </dl>
+    <dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ContactNo)
+        </dd>
+    </dl>
+
+@foreach (var item in Model.Appointments)
+    {
+@*         <dl>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => item.AppointmentId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => item.AppointmentId)
+            </dd>
+        </dl>
+        <dl>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => item.AppointmentDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => item.AppointmentDate)
+            </dd>
+        </dl> *@
+
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => item.AppointmentId)
+            </dt>
+            <dd class="col-sm-4">
+                @Html.DisplayFor(model => item.AppointmentId)
+            </dd>
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => item.AppointmentDate)
+            </dt>
+            <dd class="col-sm-4">
+                @Html.DisplayFor(model => item.AppointmentDate)
+            </dd>
+        </dl>
+         
+}
+
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PatientId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

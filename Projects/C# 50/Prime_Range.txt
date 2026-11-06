@@ -1,0 +1,54 @@
+// Online C# compiler (editor) for free
+// Write and run C# online using this editor.
+
+using System;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
+using System.Linq;
+public class HelloWorld {
+    public static void Main(string[] args) {
+        int num1 =2; 
+        int num2=100;
+        List<int> myList=new List<int>();
+        if(num1 < 2 || num2 <2){
+                Console.WriteLine("Num is below 2");
+                return;
+        }
+        else if(num1 > num2){
+                Console.WriteLine("num1 cant be less than num2");
+                return;
+        }
+        else{
+                bool res=true;
+                //int currNum=num1;
+                for(int currNum=num1; currNum<=num2; currNum++ ){
+                        if(currNum ==2 || currNum ==3){
+                                myList.Add(currNum);
+                        }
+                        else
+                        {
+                        //Console.WriteLine("CurrNum= " +currNum );
+                        //j=2; 4<=5? true; 6<=5 false
+                        for(int j=2; j*j<=currNum ; j++){
+                                if(currNum % j ==0){
+                                       //Console.WriteLine("CurrNum= " +currNum +", j= "+j); 
+                                       res=false;
+                                        //Console.WriteLine("breaking");
+                                        break;                                
+                                }
+                                else{
+                                res=true;
+                                }
+                                //Console.WriteLine("breaking test");                         
+                        }
+                        if(res){
+                                                                                                                        //Console.WriteLine("Adding curr num:" +currNum);
+                                myList.Add(currNum);
+                        }
+                        }           
+                }
+        }
+        Console.WriteLine(string.Join(",",myList));
+        
+    }
+}

@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Shift_Model
+
+
+<form asp-controller="Home" asp-action="AddShift" method="post">
+    <label for="EmployeeEnterpriseID">Employee Enterprise ID</label>
+    <input type="text" asp-for="EmployeeEnterpriseID" />
+    <br>
+    <label for="WBSElement">WBS Element</label>
+    <input type="text" asp-for="WBSElement" />
+    <br>
+    <label for="StartDate">Start Date</label>
+    <input type="date" asp-for="StartDate" />
+    <br>
+
+    <label for="EndDate">End Date</label>
+    <input type="date" asp-for="EndDate" />
+
+    <br>
+    
+    <label for="LeaveDates">Leave dates (comma-separated)</label>
+    <input type="text" asp-for="LeaveDates" />
+
+    <br>
+
+    <button type="submit">Add IDs</button>
+</form>
+<form asp-controller="Home" asp-action="ClearAllShifts" method="post">
+    <button type="submit">Clear All IDs</button>
+</form>
+<form asp-controller="Home" asp-action="GenerateCSV" method="post">
+    <button type="submit">Generate CSV</button>
+</form>
+<br>
+<h5>ADDED USERS</h5>
+@if (ViewBag.Shift_obj != null)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Employee Enterprise ID</th>
+                <th>wbse</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Shift_Model userId in ViewBag.Shift_obj)
+            {
+                <tr>
+                    <td>@userId.EmployeeEnterpriseID</td>
+                    <td>@userId.WBSElement</td>                   
+                </tr>             
+            }           
+        </tbody>
+    </table>
+ 
+}
+
+
+

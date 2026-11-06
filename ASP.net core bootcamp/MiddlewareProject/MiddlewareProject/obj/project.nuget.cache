@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "E9FNuVjEOTs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anto.godwin.n\\Downloads\\Private\\ASP.net core bootcamp\\MiddlewareProject\\MiddlewareProject\\MiddlewareProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anto.godwin.n\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\anto.godwin.n\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\anto.godwin.n\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\anto.godwin.n\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

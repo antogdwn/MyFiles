@@ -1,0 +1,4 @@
+Application Development Analyst with 3+ years of experience developing and enhancing enterprise healthcare applications using C#, ASP.NET Core, REST APIs, React, SQL Server, and Azure. Experienced in building healthcare-focused solutions, API integrations, database-driven features, workflow automation, and application modernization while working with large healthcare clients.
+
+
+C#, ASP.NET Core, Web API, REST APIs, EF Core, LINQ, React, JavaScript, SQL Server, Azure, Azure DevOps, SSIS, PowerShell, Git, JWT/OAuth, Healthcare Application Development

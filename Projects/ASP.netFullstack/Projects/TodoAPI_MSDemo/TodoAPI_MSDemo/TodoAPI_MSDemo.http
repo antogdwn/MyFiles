@@ -1,0 +1,54 @@
+@TodoAPI_MSDemo_HostAddress = https://localhost:7107
+
+GET {{TodoAPI_MSDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{TodoAPI_MSDemo_HostAddress}}/AddTodo
+Content-Type: application/json
+{
+
+  "id": 2,
+    "name": "sleep",
+    "isComplete": false,
+    "secret": null
+}
+
+
+###
+
+GET {{TodoAPI_MSDemo_HostAddress}}/GetTodos
+
+###
+
+GET {{TodoAPI_MSDemo_HostAddress}}/GetTodos/completed
+
+###
+
+@id=2
+GET {{TodoAPI_MSDemo_HostAddress}}/GetTodos/{{id}}
+
+###
+
+PUT {{TodoAPI_MSDemo_HostAddress}}/UpdateTodo/{{id}}
+Content-Type: application/json
+
+{
+   "id": 2,
+    "name": "Sleepwellll",
+    "isComplete": false,
+    "secret": null
+}
+
+###
+
+DELETE {{TodoAPI_MSDemo_HostAddress}}/DeleteTodo/{{id}}
+Content-Type: application/json
+
+{
+   "id": 3,
+   
+}
+
+###

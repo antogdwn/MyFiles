@@ -1,0 +1,14 @@
+@PersonalExpenseTrackerAPI_HostAddress = https://localhost:7056
+
+GET {{PersonalExpenseTrackerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{PersonalExpenseTrackerAPI_HostAddress}}/api/expense
+
+###
+
+GET {{PersonalExpenseTrackerAPI_HostAddress}}/api/expense
+
+###

@@ -1,0 +1,35 @@
+// Online C# compiler (editor) for free
+// Write and run C# online using this editor.
+
+using System;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
+using System.Linq;
+public class HelloWorld {
+    public static void Main(string[] args) {
+            int [] input = {0,1}; //{0, 0, 0, 3, 12}
+            // {1,0,3,12,0}
+            //{1,0,3,12,0}
+            //{1,3,12,0,0}
+            int zeroCounter=0;
+            int j=0;
+            //0, 1, 0, 3, 12} 
+            if(input.Contains(0)){
+            for(int i=0; i<input.Length; i++){
+                    j = Array.IndexOf(input,0); 
+                    if(i >j && input[i] !=0 && input[j] ==0){    
+                            (input[j],input[i]) =(input[i],input[j]); 
+                            Console.WriteLine($" i= {i} , j ={j}"); 
+                    }
+                    }    
+            }
+        Console.WriteLine(string.Join(",",input));
+
+            }
+    
+            //input.Sort();
+            //Array.Sort(input);
+            //Console.WriteLine(string.Join(",",input));
+                 
+        }
+

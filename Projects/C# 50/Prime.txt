@@ -1,0 +1,48 @@
+// Online C# compiler (editor) for free
+// Write and run C# online using this editor.
+
+using System;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
+using System.Linq;
+public class HelloWorld {
+    public static void Main(string[] args) {
+        int input1 =2; 
+        int input2=15;
+        bool res = true;
+        List<int> myList=new List<int>{0,2,4,6,8,5};
+        int lastDigit =input % 10;
+        if(input <2){
+                res=false;
+        }
+        else if(input ==2 || input ==3 ){
+                res=true;
+        }
+        
+        else if(myList.Contains(lastDigit) && input !=2 && input !=5){
+            res=false;
+        }
+       
+        
+        else {
+            for(int i=2; i*i<=input; i++){
+                    if(input%i == 0){
+                            res=false;
+                            break;
+                    }
+                    
+            }
+        }
+        if(res){
+                Console.WriteLine("Prime");
+   
+        }
+            else{
+                Console.WriteLine("Not Prime");
+
+            }
+        
+    }
+}
+
+

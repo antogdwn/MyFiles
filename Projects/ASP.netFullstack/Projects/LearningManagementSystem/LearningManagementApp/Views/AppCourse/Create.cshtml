@@ -1,0 +1,54 @@
+@model LearningManagementApp.Models.AppCourse
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>AppCourse</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Duration" class="control-label"></label>
+                <input asp-for="Duration" class="form-control" />
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TechnologyId" class="control-label"></label>
+                <input asp-for="TechnologyId" class="form-control" />
+                <span asp-validation-for="TechnologyId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Technology" class="control-label"></label>
+                <input asp-for="Technology" class="form-control" />
+                <span asp-validation-for="Technology" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="users" class="control-label"></label>
+                <input asp-for="users" class="form-control" />
+                <span asp-validation-for="users" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
