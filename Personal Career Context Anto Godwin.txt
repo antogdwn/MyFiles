@@ -1,0 +1,325 @@
+Personal Career Context: Anto Godwin N
+
+Remember the following information about my professional experience. Use it in future conversations for resume preparation, interview preparation, project explanations, career discussions, technical interview answers, LinkedIn content, job applications, and when helping me recall what I worked on.
+
+Professional Background
+
+My name is Anto Godwin N.
+
+I joined Accenture in June 2023 and have 3+ years of experience primarily as a.NET developer in the healthcare domain. I progressed from an initial .NET-trained Associate Software Engineer profile into an Application Development Analyst / Packaged App Development Analyst working across application development, APIs, integrations, databases, automation, production support, and cloud/DevOps activities.
+
+My two major healthcare client engagements were:
+
+Hackensack Meridian Health (HMH)
+Cencora
+
+My core professional technologies include:
+
+C#
+.NET / ASP.NET Core
+ASP.NET MVC
+Web API / REST APIs
+Entity Framework Core
+LINQ
+SQL Server
+Stored Procedures
+SQL Jobs
+SSIS
+React
+JavaScript
+PowerShell
+Git
+Azure
+Azure DevOps
+CI/CD
+OAuth 2.0
+JWT
+Sitecore
+SFTP integrations
+Visual Studio
+Postman / Swagger
+
+My strongest professional identity is.NET backend/full-stack development with API integration, SQL/data integration, automation, production support, and Azure/DevOps exposure.
+
+Hackensack Meridian Health Experience
+
+I worked on the Hackensack Meridian Health healthcare engagement, primarily using ASP.NET Core MVC, C#, SQL Server, Sitecore, Sitecore PowerShell, PowerShell, and Azure.
+
+Shift Allowance Tracking Application
+
+I developed an ASP.NET Core MVC application for shift allowance tracking for internal business operations and hosted the application on Microsoft Azure.
+
+This gave me application-development experience across:
+
+requirement understanding
+MVC application development
+backend logic
+database integration
+application configuration
+Azure hosting/deployment.
+Sitecore Development and Support
+
+I worked on healthcare websites/applications built using Sitecore, C#, ASP.NET MVC and SQL Server.
+
+My responsibilities included application maintenance/enhancement and supporting Sitecore development environments.
+
+I also configured and maintained local Sitecore development environments to support development activities.
+
+Sitecore PowerShell Automation
+
+I developed Sitecore PowerShell scripts to automate content-management and operational activities on healthcare websites.
+
+Sitemap Validation Utility
+
+I developed a console application to validate sitemap URLs and check website availability, supporting automated site-health validation instead of relying entirely on manual checking.
+
+Deployment Backup Automation
+
+I created automation to clone/backup a GitHub repository before deployment, reducing deployment risk by making sure a repository backup/reference was available beforehand.
+
+Production/Incident Experience
+
+My HMH work also exposed me to production incident processes including:
+
+incident investigation
+test validation
+emergency changes
+production deployment validation
+stakeholder communication
+root-cause analysis
+problem management
+escalation to Microsoft/Sitecore support when necessary.
+Cencora Healthcare Experience
+
+My major later engagement was with Cencora, involving specialty-pharmacy/healthcare applications.
+
+My work involved:
+
+C#
+ASP.NET Core
+Web APIs
+React
+SQL Server
+SSIS
+PowerShell
+OAuth 2.0
+SFTP
+application integrations
+production support
+automation
+Azure DevOps/Git.
+
+I worked across multiple enterprise healthcare applications and REST APIs and delivered application features, integrations, data-processing solutions, automation tools, and production fixes.
+
+Centralized FedEx API Integration
+
+One of my strongest projects was a centralized FedEx API integration.
+
+I integrated a centralized FedEx service across four specialty-pharmacy applications.
+
+Technologies/concepts involved included:
+
+ASP.NET Core
+REST APIs
+OAuth 2.0 authentication
+shipping integration
+dynamic rate retrieval
+transit information
+shipment tracking
+carrier-aware processing.
+
+The integration helped replace application-specific/hard-coded shipping logic with more centralized and dynamic processing.
+
+This is one of the main projects I should use when an interviewer asks me to explain:
+
+API integration
+OAuth
+REST APIs
+third-party integrations
+reusable services
+external API failures
+authentication
+production integrations.
+ASP.NET Core / REST API Development
+
+I developed and enhanced 20+ API endpoints and React portal features using ASP.NET Core, React and SQL Server as part of the Cencora healthcare platform.
+
+Across my Accenture experience, I worked on 10+ healthcare applications and REST APIs and delivered numerous enhancements/features.
+
+I used Git and Azure DevOps for:
+
+source control
+CI/CD
+code reviews
+releases/deployments.
+SQL Server and SSIS Data Integration
+
+A significant part of my Cencora work involved SQL Server and SSIS.
+
+I developed/optimized:
+
+SQL queries
+stored procedures
+SQL Server database logic
+SQL Jobs
+SSIS packages
+data integration workflows.
+
+I built 10+ to 15+ data-integration solutions/pipelines covering areas such as:
+
+inbound/outbound processing
+reporting
+system integrations
+database/data migration
+scheduled processing
+healthcare data flows.
+
+This is genuine professional SQL/SSIS experience and should be used when preparing me for database, integration, ETL, stored-procedure, SQL-job and data-pipeline interview questions.
+
+Automated SFTP File Transfer
+
+I developed a.NET-based automated file-transfer solution for Lemtrada-related processing.
+
+The application handled files coming from multiple source locations/naming patterns, transferred them to an SFTP destination, and was scheduled for daily execution.
+
+I also participated in validation of Lemtrada REMS/RxMx file movements and post-implementation/application/job validation.
+
+This project is useful for explaining:
+
+.NET automation
+filesystem handling
+business file naming/pattern logic
+SFTP
+scheduling
+logging/error handling
+integration workflows.
+JobScheduler to JAMS Migration
+
+I participated in a large scheduler-modernization/migration effort where 900+ jobs were migrated from JobScheduler to JAMS using an automated migration process.
+
+This project involved concepts such as:
+
+job scheduling
+legacy migration
+bulk automation
+job configuration
+validation
+reducing repetitive manual work.
+
+My resume materials associate my automation work, including this migration, with 500+ hours of manual effort saved.
+
+Operating System / Server Upgrade
+
+I supported a large OS/server upgrade effort involving 20+ applications.
+
+My responsibilities included understanding application/server flows, supporting clean installations/migrations, validating dependencies, and helping minimize disruption during the upgrade.
+
+I received a Sparkling Star Award in connection with this effort.
+
+This is a useful example when discussing:
+
+ownership
+large-scale migration
+coordination
+application dependencies
+deployment/infrastructure work
+working outside normal feature development.
+Database Schema Comparison Utility
+
+I developed a.NET application to compare database schemas across environments.
+
+This was another example of using .NET to automate an operational/development activity that otherwise required more manual comparison.
+
+Portal Monitoring Automation
+
+I developed a PowerShell-based monitoring solution for 100+ portals.
+
+This demonstrates practical PowerShell/automation experience beyond simple scripting.
+
+Legacy VB.NET Modernization
+
+I helped modernize a legacy VB.NET reporting application, migrating it to a modern .NET-based/console reporting solution and automating report generation and delivery.
+
+This project is useful for explaining:
+
+legacy modernization
+understanding existing application behavior
+migration to .NET
+automation
+regression/output validation.
+Production Support and Troubleshooting
+
+I have real production-support experience alongside development.
+
+My resume records resolution of 200+ production incidents through debugging and root-cause analysis.
+
+My responsibilities included:
+
+troubleshooting production issues
+validating applications after changes
+portal monitoring
+checking scheduled jobs
+validating file feeds
+checking services
+checking application availability
+investigating failures
+coordinating with other support/development teams.
+
+During the major CrowdStrike outage, I participated in validation of critical Cencora systems and scheduled jobs, identified inaccessible job-server conditions, and reported impacted jobs.
+
+I also performed IMM production validation across applications, portals and scheduled jobs. In one documented validation, a Nexplanon hotline initially failed because of a long-running job, after which it was revalidated successfully.
+
+This experience means I can discuss the software lifecycle beyond development:
+
+development → deployment → monitoring → incident → debugging → validation → recovery.
+
+Major Professional Achievements
+
+Important numbers/results I should remember:
+
+Worked across 10+ enterprise healthcare applications/APIs.
+Developed/enhanced 20+ API endpoints and React portal features.
+Delivered 15+ healthcare platform features/enhancements.
+Integrated FedEx functionality across 4 pharmacy applications.
+Developed 10+ / 15+ SQL Server and SSIS integration solutions/pipelines.
+Migrated 900+ scheduled jobs from JobScheduler to JAMS.
+Supported an OS/server upgrade involving 20+ applications.
+Built monitoring covering 100+ portals.
+Resume records 200+ production incidents resolved through debugging/RCA.
+Automation work was associated with 500+ hours of manual effort saved.
+Received a Sparkling Star Award connected to the large OS-upgrade effort.
+Certifications / Cloud Background
+
+I hold the following Microsoft Azure certifications:
+
+AZ-900: Microsoft Azure Fundamentals
+AZ-104: Microsoft Azure Administrator Associate
+AZ-400: Microsoft DevOps Engineer Expert.
+
+Accenture competency records associated my certifications with proficiency in Azure PaaS, Azure IaaS, Azure DevOps and Azure Architecture.
+
+I should present myself as:
+
+A .NET developer first, with Azure and DevOps as strong secondary capabilities.
+
+I should distinguish real hands-on project experience from Azure concepts learned through certifications/labs.
+
+Overall Career Story
+
+My Accenture journey can be summarized as:
+
+I started at Accenture in June 2023 after .NET Core training. My early project experience was with Hackensack Meridian Health, where I worked with ASP.NET Core MVC, Sitecore, SQL Server, Azure and PowerShell and built applications and automation utilities. I later moved into the Cencora healthcare engagement, where my responsibilities expanded significantly into ASP.NET Core APIs, React, SQL Server, SSIS, third-party integrations, OAuth, automation and production support.
+
+Some of my key contributions included integrating a centralized FedEx API across four specialty-pharmacy applications, developing SQL/SSIS data-integration workflows, automating SFTP file transfers, migrating more than 900 scheduler jobs to JAMS, supporting an OS upgrade across more than 20 applications, developing database-schema comparison and portal-monitoring utilities, and modernizing a legacy VB.NET reporting application.
+
+Alongside development, I gained substantial production exposure through incident troubleshooting, scheduled-job monitoring, application validation, release support and root-cause analysis.
+
+A consistent pattern throughout my Accenture career was identifying repetitive, manual or legacy processes and improving them using C#, .NET, APIs, SQL/SSIS and PowerShell automation.
+
+Instruction to my personal Copilot
+
+Treat the information above as my professional Accenture career history. Remember it and use it as background whenever I ask about my experience, projects, achievements, resume, interviews, job applications, recruiter questions, LinkedIn profile, behavioral questions or technical project explanations.
+
+Do not assume that every technology I know was used professionally. Separate my verified Accenture project experience from personal learning/certification knowledge. Help me explain my experience truthfully, technically and in a way appropriate for .NET/backend/full-stack interviews.
+
+When I ask “what did I do at Accenture?” or ask you to help me recall a project years later, use this information to reconstruct the relevant experience.
